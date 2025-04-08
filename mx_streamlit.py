@@ -1,15 +1,18 @@
 
 import streamlit as st
-import json
+import sqlite3
+import pandas as pd
 
 st.set_page_config(page_title="Modulex Sign Family Search Tool", layout="wide")
-st.title("📘 Modulex Sign Family Search Tool")
-st.write("Search preloaded Modulex product codes by size, family, and location.")
+st.title("📘 Modulex Sign Family Search Tool (SQL Edition)")
+st.write("Search Modulex product codes by size, family, and location from a live database.")
 
 @st.cache_data
 def load_data():
-    with open("modulex_data.json") as f:
-        return json.load(f)
+    conn = sqlite3.connect("modulex.db")
+    df = pd.read_sql_query("SELECT * FROM products", conn)
+    conn.close()
+    return df.to_dict(orient="records")
 
 data = load_data()
 
