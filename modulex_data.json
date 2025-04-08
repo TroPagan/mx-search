@@ -1,39 +1,9 @@
-[[
-  {
-    "code": "a:611023--",
-    "size": "400 x 1600 mm",
-    "family": "Compass",
-    "location": "Exterior"
-  },
-  {
-    "code": "b:612064--",
-    "size": "2400 x 1200 mm",
-    "family": "Pacific",
-    "location": "Exterior"
-  },
-  {
-    "code": "a:614001--",
-    "size": "93 x 157 mm",
-    "family": "Pacific",
-    "location": "Interior"
-  },
-  {
-    "code": "b:613059--",
-    "size": "1500 x 600 mm",
-    "family": "Messenger",
-    "location": "Exterior"
-  },
-  {
-    "code": "a:615046--",
-    "size": "381 x 445 mm",
-    "family": "Messenger",
-    "location": "Interior"
-  },
-  {
-    "code": "a:614045--",
-    "size": "1821 x 445 mm",
-    "family": "Pacific",
-    "location": "Interior"
-  }
+[
+  { "code": "a:611023--", "size": "400 x 1600 mm", "family": "Compass", "location": "Exterior" },
+  { "code": "b:612064--", "size": "2400 x 1200 mm", "family": "Pacific", "location": "Exterior" },
+  { "code": "a:614001--", "size": "93 x 157 mm", "family": "Pacific", "location": "Interior" },
+  { "code": "b:613059--", "size": "1500 x 600 mm", "family": "Messenger", "location": "Exterior" },
+  { "code": "a:615046--", "size": "381 x 445 mm", "family": "Messenger", "location": "Interior" },
+  { "code": "a:614045--", "size": "1821 x 445 mm", "family": "Pacific", "location": "Interior" }
 ]
-]
+
